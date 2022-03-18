@@ -16,8 +16,4 @@
       "description": "Encryption salt used by Matomo",
       "generator": "secret"
     }
-  },
-  "addons": [
-    "mysql:mysql-sandbox"
-  ]
 }
