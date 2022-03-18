@@ -12,13 +12,12 @@
       "required": false,
       "value": "3600"
     },
-
     "MATOMO_GENERAL_SALT": {
       "description": "Encryption salt used by Matomo",
       "generator": "secret"
     }
   },
   "addons": [
-    "mysql:mysql-sandbox"
+    ""
   ]
 }
