@@ -6,12 +6,6 @@
   "scripts": {
     "first-deploy": "bash bin/first-deploy-init.sh"
   },
-  "env": {
-    "MATOMO_CHIVING_FREQUENCY": {
-      "description": "Number of seconds between two reports auto-archiving",
-      "required": false,
-      "value": "3600"
-    },
     "MATOMO_GENERAL_SALT": {
       "description": "Encryption salt used by Matomo",
       "generator": "secret"
