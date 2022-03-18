@@ -15,6 +15,5 @@
     "MATOMO_GENERAL_SALT": {
       "description": "Encryption salt used by Matomo",
       "generator": "secret"
-    }
   },
 }
